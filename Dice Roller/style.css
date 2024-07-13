@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(141, 183, 177);
+    color: rgb(25, 42, 44);
+    padding: 60px;
+}
+header{
+    font-weight: 600;
+    font-size: 36px;
+}
+form{
+    font-weight: 400;
+    margin: 10px;
+    text-align: center;
+}
+input[type=number]{
+    background-color:beige;
+    width: 60px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    margin: 0px 4px 0px 4px;
+    text-align: center;
+}
+input[type=number]:focus{
+    border: 2px solid rgb(25, 42, 44);
+}
+input[type=button]{
+    width: 92px;
+    font-size: 18px;
+    color: rgb(232, 233, 234);
+    margin: 12px 0px 12px 0px;
+    background-color:rgb(25, 42, 44);
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+input[type=button]:hover{
+    background-color: rgba(25, 42, 44,0.8);
+}
+#result-text{
+    margin: 12px;   
+    width: 60%;
+    text-align: center;
+}
+#result-img{
+    width: 60%;
+    text-align: center;
+}
+#result-img img{
+    margin: 12px;   
+    width: 60px;
+}

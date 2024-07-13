@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="login-form">
+        <header class="heading" id="head">Login</header>
+        <form action="" class="form">
+            <span class="username">
+                <i class='bx bxs-user'></i>
+                <input type="text" class="user" id="Username" required placeholder="Email or Phone">
+            </span>
+            <span class="password">
+                <i class='bx bxs-lock-alt'></i>
+                <input type="password" class="pass" id="Password" required placeholder="Password">
+            </span>
+            <span class="forgot-password">
+                <a href="#">Forgot password?</a>
+            </span>
+            <input type="button" id="submit" value="Login" >
+            <span class="signup">
+                Not a member?&nbsp;<a href="#">Signup Now</a>
+            </span>
+        </form>
+        <p id="message"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
